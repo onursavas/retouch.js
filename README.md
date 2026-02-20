@@ -14,6 +14,12 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/@retouchjs/core"><img src="https://img.shields.io/npm/v/@retouchjs/core?color=D4572A&label=npm" alt="npm version" /></a>
+  <a href="https://github.com/onursavas/retouch.js/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/@retouchjs/core?color=1A1815" alt="license" /></a>
+  <a href="https://www.npmjs.com/package/@retouchjs/core"><img src="https://img.shields.io/npm/dm/@retouchjs/core?color=6B6560" alt="downloads" /></a>
+</p>
+
+<p align="center">
   <a href="#install">Install</a> &nbsp;·&nbsp;
   <a href="#quick-start">Quick Start</a> &nbsp;·&nbsp;
   <a href="#how-it-works">How It Works</a> &nbsp;·&nbsp;
@@ -40,15 +46,15 @@ Most image editors bolt onto your app like an afterthought. Rétouch was designe
 ## Install
 
 ```bash
-npm install retouchjs
+npm install @retouchjs/core
 ```
 
 ```bash
-pnpm add retouchjs
+pnpm add @retouchjs/core
 ```
 
 ```bash
-yarn add retouchjs
+yarn add @retouchjs/core
 ```
 
 <br />
@@ -58,7 +64,7 @@ yarn add retouchjs
 ### Vanilla JS
 
 ```ts
-import { Retouch } from "retouchjs";
+import { Retouch } from "@retouchjs/core";
 
 const editor = new Retouch({
   target: "#editor",
@@ -73,7 +79,7 @@ editor.destroy();
 ### React
 
 ```tsx
-import { RetouchEditor } from "@retouchjs/react";
+import { RetouchEditor } from "@@retouchjs/core/react";
 
 function App() {
   return (

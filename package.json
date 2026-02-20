@@ -1,5 +1,5 @@
 {
-  "name": "retouchjs",
+  "name": "@retouchjs/core",
   "version": "0.0.1",
   "description": "Rétouch — a canvas-based image editor library",
   "author": "",
@@ -54,6 +54,13 @@
     "retouch",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onursavas/retouch.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18"
   }
